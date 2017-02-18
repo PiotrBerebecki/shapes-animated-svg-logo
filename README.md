@@ -1,8 +1,8 @@
-# Vanilla JavaScript App Boilerplate
+# Shapes Animated SVG Logo
 
-App demonstrating ...
+CSS keyframes are used to animate parts of the SVG logo.
 
-Live version: https://REPO.herokuapp.com
+Live version: https://shapes-animated-svg-logo.herokuapp.com
 
 <img src="./src/graphics/screencast.gif" width="275px" height="auto">
 
@@ -11,15 +11,15 @@ Live version: https://REPO.herokuapp.com
 * Express
 * Heroku
 * Browsersync
+* CSS3 Animations
 * Vanilla JavaScript
 * ES6
-* Flexbox
 
 ## Getting started
 
 ```sh
-git clone https://github.com/PiotrBerebecki/REPO.git
-cd REPO
+git clone https://github.com/PiotrBerebecki/shapes-animated-svg-logo.git
+cd shapes-animated-svg-logo
 npm install
 
 #1. Start the development server with Browsersync reloading
