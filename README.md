@@ -1,4 +1,4 @@
-# Shapes Animated SVG Logo
+# Shapes - Animated SVG Logo
 
 CSS keyframes are used to animate parts of the SVG logo.
 

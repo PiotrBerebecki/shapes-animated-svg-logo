@@ -8,7 +8,64 @@ html {
   padding: 0;
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #555;
+svg {
+  width: 60%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.circle {
+  fill: rgb(248, 67, 65);
+}
+
+.letters {
+  fill: #FFFFFF;
+}
+
+.square {
+  fill: none;
+  stroke: rgb(248, 67, 65);
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 717;
+  stroke-dashoffset: -717;
+  animation: draw-square 2s infinite;
+  transform-origin: 50% 50%; // same as center
+}
+
+@keyframes draw-square {
+  from {
+    stroke-dashoffset: -717;
+    transform: rotate(0deg);
+  }
+  to {
+    stroke-dashoffset: 0;
+    transform: rotate(360deg);
+  }
+}
+
+.hexagon {
+  fill: none;
+  stroke: rgb(1, 186, 208);
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 499;
+  stroke-dashoffset: -499;
+  animation: draw-hexagon 4s infinite;
+  transform-origin: 50% 50%; // same as center
+}
+
+@keyframes draw-hexagon {
+  from {
+    stroke-dashoffset: -499;
+    transform: rotate(0deg);
+  }
+  to {
+    stroke-dashoffset: 0;
+    transform: rotate(360deg);
+  }
 }
